@@ -2,4 +2,65 @@
    OEFENEN MET FLEXBOX
 ========================================================= */
 
-/* Schrijf hier  jouw CSS! */
+/* Code door Daniel Burgemeestre voor NOVI-Education */
+
+/* OPDRACHT 2.1 */
+.one {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+/* OPDRACHT 2.2 */
+.two {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/* OPDRACHT 2.3 */
+.three {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.block {
+    width: 400px;
+    justify-content: space-evenly;
+}
+li {
+    list-style: none;
+    display: inline-block;
+
+}
+.block2  {
+    align-self: center;
+}
+
+/* OPDRACHT 2.4 */
+.box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* OPDRACHT 2.5 (Shrink before wrap) */
+.five {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.item {
+    flex-grow: 1;
+    flex-shrink 1;
+    flex-basis: 200px;
+}
